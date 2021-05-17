@@ -1,0 +1,22 @@
+{
+  "name": "jestrpg",
+  "version": "1.0.0",
+  "description": "a simple rpg",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisdocs/jest-another-RPG.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chrisdocs/jest-another-RPG/issues"
+  },
+  "homepage": "https://github.com/Chrisdocs/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
