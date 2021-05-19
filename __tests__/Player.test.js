@@ -1,8 +1,8 @@
+const Player = require('../lib/Player');
 const Potion = require('../lib/Potion');
 
 jest.mock('../lib/Potion');
 
-const Player = require('../lib/Player');
 
 test('Creates a player object', () => {
     const player = new Player('Dave');
@@ -23,7 +23,7 @@ test('Gets players stats as an object', () => {
     expect(player.getStats()).toHaveProperty('agility');
 });
 
-test('Gets inventory from player ot returns false', () => {
+test('Gets inventory from player or returns false', () => {
     const player = new Player('Dave');
 
     expect(player.getInventory()).toEqual(expect.any(Array));
